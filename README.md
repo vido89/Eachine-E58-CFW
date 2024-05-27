@@ -15,6 +15,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 https://developer.arm.com/downloads/-/gnu-rm/9-2020-q2-update
 
+https://github.com/jobroe/cmake-arm-embedded/tree/35a969878d3e6a979a0c61f0bf07327bac3aad1e
+
 Build rust library: go to `CFW/drone_rs` and run `cargo build -r`
 
 Build application: go to `CFW`, `mkdir build`, `cd build`, `cmake ..`
